@@ -37,14 +37,11 @@ class GestiondeUsuarios (BaseUserManager):
 class Usuario(AbstractBaseUser):
     email = models.EmailField(max_length=50, unique=True)
     username = models.CharField(max_length=100)
-    Fecha_ingreso = models.DateTimeField(verbose_name='Fecha de Ingreso', auto_now_add=True)
-    Fecha_salida = models.DateTimeField(verbose_name='Fecha de Salida', auto_now=True)
-    is_admin = models.BooleanField(default=False)
-    is_active = models.BooleanField(default=True)
-    is_staff = models.BooleanField(default=False)
-    is_superuser = models.BooleanField(default=False)
     Dirección_Domicilio = models.CharField(max_length=300)
     Celular = models.CharField(max_length=15, null=True)
+    Fecha_ingreso = models.DateTimeField(verbose_name='Fecha de Ingreso', auto_now_add=True)
+    Fecha_salida = models.DateTimeField(verbose_name='Fecha de Salida', auto_now=True)
+  
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELD = ['username']
