@@ -60,7 +60,7 @@ REST_FRAMEWORK = {
             )
 }
 
-AUTH_USER_MODEL = 'Storni.Usuario'
+AUTH_USUARIO_MODEL = 'Storni.Usuario'
 
 ROOT_URLCONF = 'Libreria.urls'
 
