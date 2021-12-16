@@ -46,8 +46,8 @@ class Usuario(AbstractBaseUser):
     Dirección_Domicilio = models.CharField(max_length=300)
     Celular = models.CharField(max_length=15, null=True)
 
-    USERNAME_FIELDS = 'email'
-    REQUIRED_FIELDS = ['username']
+    USERNAME_FIELD = 'email'
+    REQUIRED_FIELD = ['username']
 
     objects = GestiondeUsuarios()
 
