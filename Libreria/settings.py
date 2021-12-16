@@ -88,8 +88,12 @@ WSGI_APPLICATION = 'Libreria.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd9v0fa33iufp4k',
+        'USER': 'xbmyyekdecrfgi',
+        'PASSWORD': '1380d0204f631317b625b62d632da6aed3d622b91f45b1e7c9c81ac228f4db8f',
+        'HOST': 'ec2-18-211-185-154.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
