@@ -2,10 +2,10 @@ from django.contrib.auth.models import User
 from rest_framework import serializers
 from Storni.models.user import Usuario
 from Storni.models.cuentas import Cuentas
-from Storni.serializers.cuentasSerializers import CuentaSerializers
+from Storni.serializers.cuentasSerializers import CuentaSerializers, CuentasSerializer
 
 class UsuarioSerializer(serializers.ModelSerializer):
-    Cuentas = CuentaSerializers()
+    Cuentas = CuentasSerializer()
     class Meta:
         model = Usuario
         fields = ['email', 'username', 'Password', 'Dirección de Domicilio', 'Celular', 'Fecha de Ingreso', 'Fecha de Salida','Cuentas']

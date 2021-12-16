@@ -1,2 +1,0 @@
-from Storni.serializers.cuentasSerializers import CuentasSerializer
-from Storni.serializers.userSerializers import UsuarioSerializer
