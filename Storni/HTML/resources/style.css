@@ -1,7 +1,7 @@
 body {
     width: 1180px;
     margin: 10px auto;
-    background-color: #7a97ce;
+    background-color: #ffffff;
     padding: 0px 20px 20px 20px;
     border: 5px solid black;
 }
@@ -15,7 +15,7 @@ h1 {
     border-radius: 10px;
     margin: 0px 40px 0px 40px;
     padding: 10px 40px 10px 40px;
-    background-color: #E34481;
+    background-color: #68cf7e;
 }
     .Conclusión {
     color: #e1e3ec;
