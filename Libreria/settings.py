@@ -27,8 +27,6 @@ SECRET_KEY = 'django-insecure-$v6kzkf982-gm5vr)dq(#l*2)-s0z5w@1xnb)dvyz9l*ktopo^
 DEBUG = True
 
 ALLOWED_HOSTS = []
-CORS_ALLOW_ALL_ORIGINS = True
-
 
 # Application definition
 
@@ -64,6 +62,14 @@ REST_FRAMEWORK = {
                 'rest_framework_simplejwt.authentication.JWTAuthentication',
             )
 }
+
+#CORS_ALLOWED_ORIGINS = [
+#"https://example.com",
+#"https://sub.example.com",
+#"http://localhost:8080",
+#]
+
+CORS_ALLOW_ALL_ORIGINS = True
 
 AUTH_USUARIO_MODEL = 'Storni.Usuario'
 
