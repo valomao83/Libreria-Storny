@@ -1,0 +1,28 @@
+body {
+    width: 1180px;
+    margin: 10px auto;
+    background-color: #7a97ce;
+    padding: 0px 20px 20px 20px;
+    border: 5px solid black;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+.Contenido {
+    color: #5E1C36;
+    border-radius: 10px;
+    margin: 0px 40px 0px 40px;
+    padding: 10px 40px 10px 40px;
+    background-color: #E34481;
+}
+    .Conclusión {
+    color: #e1e3ec;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0px 40px 0px 40px;
+    padding: 5px 40px 5px 40px;
+    background-color: #5C85D5;
+}
